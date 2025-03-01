@@ -1,7 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace LocalizedDialogs.Samples
+namespace LocalizedDialogs.Samples.Canvas
 {
     public class CanvasDialogController : MonoBehaviour
     {

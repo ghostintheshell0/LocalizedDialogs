@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizedDialogsSamples_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: c991656a5bf8729d3b52f9732d51c1f4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 10530652221440
+    m_Localized: Welcome to localized dialogs editor. Here you can see an example
+      how to use it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10715629416448
+    m_Localized: Continue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10720859713536
+    m_Localized: 'Your player name is <b>{0}</b>; And your balance: <color=#ffff00ff>{1}</color>;'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11846644461568
+    m_Localized: Give me <color=#ffff00ff>100</color> money;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11891661926400
+    m_Localized: Take my <color=#ffff00ff>10</color> money;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13276403003392
+    m_Localized: Night.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13274796584960
+    m_Localized: Evening.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13273034977280
+    m_Localized: Day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13265208406016
+    m_Localized: Morning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10843538911232
+    m_Localized: Sample NPC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11893402562560
+    m_Localized: Take my <color=#ffff00ff>50</color> money;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10919069937664
+    m_Localized: Try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11780055691264
+    m_Localized: Which part of day is now?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15092293365760
+    m_Localized: End.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701716777709568
+    m_Localized: I want to see show conditions and values in strings.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702160639930368
+    m_Localized: I want to see interaction conditions.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

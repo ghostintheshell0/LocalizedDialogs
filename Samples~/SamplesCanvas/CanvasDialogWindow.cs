@@ -5,7 +5,7 @@ using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
 
-namespace LocalizedDialogs.Samples
+namespace LocalizedDialogs.Samples.Canvas
 {
     public class CanvasDialogWindow : MonoBehaviour
     {

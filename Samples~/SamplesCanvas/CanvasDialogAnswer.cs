@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace LocalizedDialogs.Samples
+namespace LocalizedDialogs.Samples.Canvas
 {
     public class CanvasDialogAnswer : MonoBehaviour
     {
