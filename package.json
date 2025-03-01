@@ -17,7 +17,20 @@
   "repository": {
   "type": "git",
   "url": "https://github.com/ghostintheshell0/LocalizedDialogs"
- }
+ },
+  "samples":
+  [
+  	{
+            "displayName": "Canvas sample",
+            "description": "Contains sample of using Localized Dialogs with canvas",
+            "path": "Samples~/Canvas"
+  	},
+  	{
+            "displayName": "UIElements sample",
+            "description": "Contains sample of using Localized Dialogs with UIElements",
+            "path": "Samples~/UIElements"
+  	}
+  ]
 }
 
 
