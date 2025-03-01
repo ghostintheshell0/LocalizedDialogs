@@ -23,12 +23,12 @@
   	{
             "displayName": "Canvas sample",
             "description": "Contains sample of using Localized Dialogs with canvas",
-            "path": "Samples~/Canvas"
+            "path": "Samples~/SamplesCanvas"
   	},
   	{
             "displayName": "UIElements sample",
             "description": "Contains sample of using Localized Dialogs with UIElements",
-            "path": "Samples~/UIElements"
+            "path": "Samples~/SamplesUIElements"
   	}
   ]
 }
