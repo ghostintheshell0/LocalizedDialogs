@@ -961,7 +961,7 @@ MonoBehaviour:
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
-  Avatar: {fileID: 21300000, guid: 67287f7ee45179941957350e78ba4fef, type: 3}
+  Avatar: {fileID: 21300000, guid: 694d26a4231453f4494942d2a5dc5472, type: 3}
   Dialogs: {fileID: 11400000, guid: 497b022f5e970dccbb1863a9dd3bbac0, type: 2}
   references:
     version: 2
