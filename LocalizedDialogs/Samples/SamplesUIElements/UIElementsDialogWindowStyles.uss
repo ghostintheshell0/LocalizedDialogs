@@ -1,0 +1,43 @@
+.answers-panel {
+    flex-grow: 1;
+    height: 50%;
+    background-color: rgb(46, 23, 15);
+}
+
+.message-panel {
+    flex-grow: 1;
+    flex-direction: row;
+    height: 50%;
+    background-color: rgb(46, 23, 15);
+}
+
+.avatar {
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.npc-name {
+    color: rgb(242, 159, 5);
+    -unity-font-style: bold;
+    font-size: 18px;
+    -unity-text-align: upper-center;
+    width: 100px;
+    background-color: rgb(89, 44, 28);
+}
+
+.answer-text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+}
+
+.dialog-message {
+    color: rgb(242, 159, 5);
+}
+
+.answer-text-hover {
+    font-size: 16px;
+    color: rgb(140, 72, 32);
+    background-color: rgba(89, 44, 28, 0.2);
+}

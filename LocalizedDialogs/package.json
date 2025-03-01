@@ -1,0 +1,23 @@
+{
+  "name": "com.ghostintheshell0.localizeddialogs",
+  "version": "1.0.0",
+  "displayName": "Localized Dialogs",
+  "description": "Dialogue system with unity localization package.",
+  "unity": "2023.2",
+  "unityRelease": "13f1",
+  "documentationUrl": "https://github.com/ghostintheshell0/LocalizedDialogs",
+  "dependencies": {
+    "com.unity.localization": "1.4.5",
+ },
+ "keywords": [
+    "Dialogue",
+    "Localized"
+  ],
+  "author": "Diccuric_Sigeon",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/ghostintheshell0/LocalizedDialogs"
+ }
+}
+
+

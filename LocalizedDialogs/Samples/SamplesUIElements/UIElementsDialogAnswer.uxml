@@ -1,0 +1,6 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIElementsLocalizationEditor/Runtime/Samples/UIElements/UIElementsDialogWindowStyles.uss?fileID=7433441132597879392&amp;guid=8b3da0729bf4029f68613d544cd22058&amp;type=3#UIElementsDialogWindowStyles" />
+    <engine:VisualElement style="flex-grow: 1;">
+        <engine:Label text="Label" name="Text" class="answer-text" />
+    </engine:VisualElement>
+</engine:UXML>

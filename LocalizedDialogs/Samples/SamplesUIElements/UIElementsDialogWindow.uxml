@@ -1,0 +1,17 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIElementsLocalizationEditor/Runtime/Samples/UIElements/UIElementsDialogWindowStyles.uss?fileID=7433441132597879392&amp;guid=8b3da0729bf4029f68613d544cd22058&amp;type=3#UIElementsDialogWindowStyles" />
+    <engine:VisualElement style="width: 600px; height: 350px; margin-right: auto; margin-left: auto; margin-top: auto; margin-bottom: auto;">
+        <engine:VisualElement class="message-panel" style="height: 180px;">
+            <engine:VisualElement style="height: 150px; width: 150px;">
+                <engine:VisualElement name="Avatar" class="avatar" style="width: 150px; height: 150px;" />
+                <engine:Label text="Label" name="NpcName" picking-mode="Ignore" class="npc-name" style="width: 150px; height: 30px;" />
+            </engine:VisualElement>
+            <engine:ScrollView name="ScrollView" horizontal-scroller-visibility="Hidden" style="margin-left: 5px; flex-grow: 1;">
+                <engine:Label text="Label" name="Message" class="dialog-message" style="color: rgb(241, 181, 28); white-space: normal;" />
+            </engine:ScrollView>
+        </engine:VisualElement>
+        <engine:VisualElement class="answers-panel" style="height: 150px;">
+            <engine:ScrollView name="AnswersContainer" style="flex-grow: 1;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

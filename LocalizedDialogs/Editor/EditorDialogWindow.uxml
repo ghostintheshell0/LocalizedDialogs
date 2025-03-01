@@ -1,0 +1,21 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="EditorDialogWindow.uss?fileID=7433441132597879392&amp;guid=212fe5473edfa521790613a7d2dddfd6&amp;type=3#EditorDialogWindow" />
+    <engine:VisualElement name="Window" class="dialog-window" style="flex-grow: 1; align-items: stretch;">
+        <engine:ScrollView vertical-scroller-visibility="AlwaysVisible" name="MessageContainer" class="message-container">
+            <engine:ScrollView name="MessageTextScrollView" class="message-text-scroll-view">
+                <engine:Label text="Introduction Dialog message 1 can be here. but developer isn&apos;t a scenarist. so you&apos;&apos;ll read meta message about not existing message :( lol ololo 123 !@#$ {0} {1} {2} {0:00}" name="DialogMessage" parse-escape-sequences="false" selectable="true" class="message-text" />
+            </engine:ScrollView>
+        </engine:ScrollView>
+        <engine:VisualElement name="AnswersContainer" class="answers-container" />
+        <engine:VisualElement name="AnswersControlPanel" class="answers-control-panel">
+            <engine:VisualElement name="AnswersController" class="answers-controller">
+                <engine:VisualElement name="AddAnswer" class="answer-container-control-button">
+                    <engine:Label text="+" picking-mode="Ignore" />
+                </engine:VisualElement>
+                <engine:VisualElement name="RemoveAnswer" class="answer-container-control-button">
+                    <engine:Label text="-" picking-mode="Ignore" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

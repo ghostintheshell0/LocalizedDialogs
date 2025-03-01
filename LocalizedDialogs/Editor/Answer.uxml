@@ -1,0 +1,31 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="EditorDialogWindow.uss?fileID=7433441132597879392&amp;guid=212fe5473edfa521790613a7d2dddfd6&amp;type=3#EditorDialogWindow" />
+    <engine:VisualElement class="answer-row">
+        <engine:VisualElement name="Header" class="answer-header">
+            <engine:VisualElement name="PopupOpenButton" picking-mode="Ignore" class="answer-icon answer-button" style="background-image: url(&quot;DialogEditorIcons.png?fileID=-5196541225409258320&amp;guid=7e6746fcef91e72699fb2a05ac84ffe2&amp;type=3#DialogEditorIcons_Popup&quot;);" />
+            <engine:VisualElement name="PopupCloseButton" picking-mode="Ignore" class="answer-icon answer-button" style="background-image: url(&quot;DialogEditorIcons.png?fileID=-5196541225409258320&amp;guid=7e6746fcef91e72699fb2a05ac84ffe2&amp;type=3#DialogEditorIcons_Popup&quot;); rotate: -90deg; display: none;" />
+            <engine:Label text="99." name="Id" picking-mode="Ignore" class="answer-id" />
+            <engine:Label text="Label can be really lonG and i don&apos;t want to see strange shit" name="AnswerLabel" picking-mode="Ignore" class="answer-label" />
+            <engine:VisualElement picking-mode="Ignore" name="IconsContainer" class="answer-icons-container">
+                <engine:VisualElement name="InteractableIcon" picking-mode="Ignore" class="answer-icon" style="background-image: url(&quot;DialogEditorIcons.png?fileID=-5868717450178446673&amp;guid=7e6746fcef91e72699fb2a05ac84ffe2&amp;type=3#DialogEditorIcons_Interactable&quot;);" />
+                <engine:VisualElement name="VisibleIcon" picking-mode="Ignore" class="answer-icon" style="background-image: url(&quot;DialogEditorIcons.png?fileID=-3371165330783480394&amp;guid=7e6746fcef91e72699fb2a05ac84ffe2&amp;type=3#DialogEditorIcons_Visible&quot;);" />
+                <engine:VisualElement name="ActionIcon" picking-mode="Ignore" class="answer-icon" style="background-image: url(&quot;DialogEditorIcons.png?fileID=3690732690420811674&amp;guid=7e6746fcef91e72699fb2a05ac84ffe2&amp;type=3#DialogEditorIcons_Action&quot;);" />
+                <engine:VisualElement name="SortingButtons" style="flex-direction: row; width: 60px; position: absolute; right: 0; align-self: center;">
+                    <engine:VisualElement name="MoveDown" class="answer-icon answer-button" style="background-image: url(&quot;DialogEditorIcons.png?fileID=817152371&amp;guid=7e6746fcef91e72699fb2a05ac84ffe2&amp;type=3#DialogEditorIcons_Down&quot;);" />
+                    <engine:VisualElement name="MoveUp" class="answer-icon answer-button" style="background-image: url(&quot;DialogEditorIcons.png?fileID=-5193805640940069250&amp;guid=7e6746fcef91e72699fb2a05ac84ffe2&amp;type=3#DialogEditorIcons_Up&quot;);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="Popup" class="answer-popup" style="display: none;">
+            <engine:VisualElement name="PopupRow" class="answer-popup-row">
+                <editor:ObjectField label="Interactable" name="Interactable" />
+            </engine:VisualElement>
+            <engine:VisualElement name="PopupRow" class="answer-popup-row">
+                <editor:ObjectField label="Visible" name="Visible" />
+            </engine:VisualElement>
+            <engine:VisualElement name="PopupRow" class="answer-popup-row">
+                <editor:ObjectField label="Action" name="Action" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
