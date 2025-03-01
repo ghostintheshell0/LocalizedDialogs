@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e7888678252bc73a2259845f51b373, type: 3}
+  m_Name: SampleDialog
+  m_EditorClassIdentifier: 
+  Entries:
+  - Guid: 1
+    PositionInEditor: {x: -69.01991, y: 186.78926}
+    Text:
+      m_TableReference:
+        m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+      m_TableEntryReference:
+        m_KeyId: 10530652221440
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Audio:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+    Answers:
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 701716777709568
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: 2
+      Interactable: {fileID: 0}
+      Visible: {fileID: 0}
+      Action: {fileID: 0}
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 702160639930368
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: 3
+      Interactable: {fileID: 0}
+      Visible: {fileID: 0}
+      Action: {fileID: 0}
+  - Guid: 2
+    PositionInEditor: {x: 581.24304, y: -51.0159}
+    Text:
+      m_TableReference:
+        m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+      m_TableEntryReference:
+        m_KeyId: 10720859713536
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Audio:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+    Answers:
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 11846644461568
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: 2
+      Interactable: {fileID: 0}
+      Visible: {fileID: 0}
+      Action: {fileID: 11400000, guid: 3fc335b041f4ca50ea38e8092dc0af4a, type: 2}
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 11891661926400
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: 2
+      Interactable: {fileID: 0}
+      Visible: {fileID: 11400000, guid: 7e7b74ddfd92f8632a9f55813025c3d2, type: 2}
+      Action: {fileID: 11400000, guid: d8c95b57f113a64d785b53be0523bb39, type: 2}
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 11893402562560
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: 2
+      Interactable: {fileID: 0}
+      Visible: {fileID: 11400000, guid: bb9d30a7b4ef16f4a912a15c2ccbcb38, type: 2}
+      Action: {fileID: 11400000, guid: e893ebf6fae3fe13e851d29839d31853, type: 2}
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 10715629416448
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: 4
+      Interactable: {fileID: 0}
+      Visible: {fileID: 0}
+      Action: {fileID: 0}
+  - Guid: 3
+    PositionInEditor: {x: 581, y: 526}
+    Text:
+      m_TableReference:
+        m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+      m_TableEntryReference:
+        m_KeyId: 11780055691264
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Audio:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+    Answers:
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 13265208406016
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: 4
+      Interactable: {fileID: 11400000, guid: 33a8090a6e4155cbb9788e41b47c88d6, type: 2}
+      Visible: {fileID: 0}
+      Action: {fileID: 0}
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 13273034977280
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: 4
+      Interactable: {fileID: 11400000, guid: e09ba1de6cff440c4b89ea96bc13ef75, type: 2}
+      Visible: {fileID: 0}
+      Action: {fileID: 0}
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 13274796584960
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: 4
+      Interactable: {fileID: 11400000, guid: 0a974ec70727c0297b3bdbeee3f96db4, type: 2}
+      Visible: {fileID: 0}
+      Action: {fileID: 0}
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 13276403003392
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: 4
+      Interactable: {fileID: 11400000, guid: b1c21bae93bb6819aa61171ad31f7e6f, type: 2}
+      Visible: {fileID: 0}
+      Action: {fileID: 0}
+  - Guid: 4
+    PositionInEditor: {x: 1247.9552, y: 348.50006}
+    Text:
+      m_TableReference:
+        m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+      m_TableEntryReference:
+        m_KeyId: 15092293365760
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Audio:
+      m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+    Answers:
+    - Text:
+        m_TableReference:
+          m_TableCollectionName: GUID:c991656a5bf8729d3b52f9732d51c1f4
+        m_TableEntryReference:
+          m_KeyId: 10919069937664
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      NextDialogGuid: -1
+      Interactable: {fileID: 0}
+      Visible: {fileID: 0}
+      Action: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []

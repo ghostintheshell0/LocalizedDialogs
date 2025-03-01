@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LocalizedDialogs.Samples
+namespace LocalizedDialogs.Samples.UIElements
 {
     public class UIElementsDialogWindow : MonoBehaviour
     {

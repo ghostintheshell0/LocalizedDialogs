@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.UIElements;
 
-namespace LocalizedDialogs.Samples
+namespace LocalizedDialogs.Samples.UIElements
 {
     public class UIElementsDialogAnswer : VisualElement
     {
